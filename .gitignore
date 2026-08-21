@@ -1,0 +1,13 @@
+# Ignore local AI models
+models/
+
+# Ignore the Chroma database
+chroma_db/
+
+# Ignore personal PDF documents
+docs/
+
+# Standard Python system files to ignore
+__pycache__/
+*.pyc
+.env

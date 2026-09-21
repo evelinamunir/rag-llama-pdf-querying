@@ -5,19 +5,21 @@ This is a local Retrieval-Augmented Generation (RAG) system that allows you to q
 ## Setup Instructions
 
 1. **Install Dependencies**
+
    Run the following command to install the required Python packages:
    `pip install -r requirements.txt`
 
-2. **Download the Model**
+3. **Download the Model**
    * Download a Llama 3.2 GGUF model file.
    * The first time you run the script it will automatically create a `models/` directory (or you can make it yourself).
    * Place your downloaded model into the `models/` folder and rename it to `llama-3.2.gguf`.
 
-3. **Add Your PDFs**
+4. **Add Your PDFs**
    * When you run the script, it will also generate a `docs/` folder (or you can make it yourself again).
    * Place the PDF files you want to query inside that `docs/` folder.
 
-4. **Run the Application**
+5. **Run the Application**
+
    Run the `Query_PDFs.py` script. On the full run run, it will chunk the PDF documents, download the Nomic embedding model, and build a local Chroma database in a `chroma_db/` folder. Then once loaded, you can type your questions into the terminal.
 
 
